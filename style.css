@@ -1,0 +1,178 @@
+body {
+    background: lightblue;
+}
+
+/* Styling for the alert, which is a hidden div */
+#hidden-alert {
+    background: #505050;
+    display: none;
+    width: 100%; 
+    height: 100%;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+h3 {
+    font-family: 'Calibri', sans-serif;
+    font-size: 20px;
+}
+
+/* Form styling */
+
+.wrapper {
+    height: 600px;
+    width: auto;
+    padding: 0 25px;
+    margin-bottom: 100px;
+}
+
+#input-form-container {
+    float: left;
+    height: 100%;
+    padding: 0;
+    background: rgba(0,0,0,0.8);
+    border: 2px solid #BEBEBE;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+input, h3 {
+    padding: 10px;
+	display: block;
+    margin: 20px 0 0 0;
+    font-weight: bold;
+    color: white;
+}
+
+a {
+    background-color:  white;
+    color: black;
+    border: 2px solid darkslategray;
+    font-family: 'Calibri', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 14px 20px;
+    display: inline-block;
+}
+
+a:active {
+    background-color: red;
+    color: white;
+}
+
+form {
+    display: inline-block;
+}
+
+input {
+    box-shadow: 0 0 4px #0f580f;
+    background-color: white;
+    color: black;   
+}
+
+form, input {
+    max-width: 400px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	box-sizing: border-box;
+	padding: 7px;
+	margin: 0 20px 0 20px;
+	transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+
+form input[type=text]:focus, 
+form input[type=email]:focus,
+form input[type=file]:focus {
+    -moz-box-shadow: 0 0 13px red;
+	-webkit-box-shadow: 0 0 13px red;
+	box-shadow: 0 0 13px red;
+	border: 3px solid red;
+}
+
+/* Adding frame to the listed posts */
+
+.User {
+    height: 400px;
+    margin-top: 1rem;
+    border-bottom: 1px solid black;
+    display: block;
+    padding: 10px;
+}
+
+#users-container {
+    display: block;
+    padding: 0 25px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+img {
+    max-height: 400px;
+    max-width: 400px;
+    float: left;
+    padding-left: 2%;    
+}
+/* Table style */
+
+#users-table-container {
+    height: 500px;
+    overflow: auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 40%;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+
+tbody tr:nth-child(odd) {
+    background: rgba(0,0,0,0.8);
+    border: 2px solid #BEBEBE;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+  
+tbody tr:nth-child(even) {
+    background: rgba(4, 5, 20, 0.8);
+    border: 2px solid #BEBEBE;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+td {    
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: Roboto, sans-serif   
+
+}
+
+
+
+#welcomeDiv p {
+    color: white;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    padding-left: 35%;
+    margin: 20px;
+}
+      

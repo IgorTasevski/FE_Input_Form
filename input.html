@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Input Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<h1>Please fill out the form bellow</h1>
+
+<div class="wrapper">
+    <div id="input-form-container">
+        <form name="CheckForm">
+            <input id="IdValue" type="hidden" value="" name="Id">
+            <h3>Ime</h3>
+            <input id="NameValue" type="text" name="Name">
+    
+            <h3>Prezime</h3>
+            <input id="PrezimeValue" type="text" name="Surname">
+
+            <h3>Email</h3>
+            <input id="EmailValue" type="email" name="Email">
+        
+            <h3>Slika</h3>
+            <input type="file" name="Image" id="ImageInput">         
+    
+            <br>
+            <br>  
+            <br>
+            <a href="#" class="button" onclick="ValidateForm()">Save</a>  
+        </form>
+    </div>
+
+    <div id="users-table-container">
+        <table id="users-table"></table>
+    </div>
+</div>
+
+<div id="users-container"></div>
+
+<div id="hidden-alert"><h1>User sucessfully added!</h1></div>
+
+</body>
+
+<script src="forms.js"></script>
+
+</html>
